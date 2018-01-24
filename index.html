@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Don Chicho&#39;s Nurture Farm</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -46,17 +46,27 @@
     }
 
     /* Color scheme changing */
-    .bg-primary, .btn-primary {
-      background-color: #88a229 !important;
+    .btn-primary {
+      background-color: #9EBD30 !important;
+      border-color: #9EBD30 !important;
     }
 
-    .btn-primary:hover {
-      background-color: #88a229;
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+      background-color: #88a229 !important;
+      border-color: #88a229 !important;
+    }
+
+    .bg-primary {
+      background-color: #5D6F1C !important;
     }
 
     hr {
       background-color: #88a229;
       border-color: #88a229;
+    }
+
+    hr.separator {
+      visibility: hidden;
     }
     </style>
 
@@ -95,6 +105,7 @@
       </div>
     </nav>
 
+    <!-- Jumbotron -->
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
@@ -104,7 +115,7 @@
               <strong>Profitable Goat Raising for Every Juan</strong>
             </h1>
             </div>
-            <hr>
+            <hr class="separator">
           </div>
           <div class="col-lg-8 mx-auto">
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
@@ -113,62 +124,163 @@
       </div>
     </header>
 
+    <!-- About -->
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white">About the Farm</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <p class="text-faded mb-4">
+              Don Chicho’s Nurture Farm is a subfarm of DV Boer located in Bulacan. The rich and luscious land of the farm will serve as a pasture site for the Boer goats. Together with DV Boer, the farm aims to efficiently and effectively raise and produce goat livestock and products, not only ensuring the highest profit possible, but also providing employment to the local farmers in the community.
+              <br /><br />
+              Much like DV Boer, the farm also offers the Pa-iwi Package, giving everyone a chance to contribute to the farm’s development and goals, all while producing profit for both the investor and the farm.
+              <br /><br />
+              Company Name:
+              <br />
+              SEC Registration No.:
+              <br />
+              Company TIN No.:
+            </p>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-lg-4 mx-auto text-center">
+            <h2 class="section-heading text-white">Our Mission</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">
+              <ul class="text-faded">
+                <li>To provide high-quality livestock and derivative products to our customers.</li>
+                <li>To contribute to the local rural community and provide jobs for the local farmers through means of profitable livestock-farming techniques.</li>
+                <li>To spread the culture of agriculture and livestock-farming in the Philippines.</li>
+              </ul>
+            </p>
+          </div>
+
+          <div class="col-lg-4 mx-auto text-center">
+            <h2 class="section-heading text-white">Our Vision</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">
+              To become a provider of high-quality livestock products, as well as an employer of local farmers in the rural community, through means of profitable and sustainable agricultural techniques.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Paiwi Section -->
     <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">The Paiwi System</h2>
             <hr class="my-4">
+            <p class="text-muted mb-4">
+                In the Pa-iwi or Paalaga System, the owner of livestock would put in trust a cow / goat to a farmer or trusted individual to take care of the livestock. Any offspring would be equally divided in half between the owner and the farmer.
+            </p>
+            <hr class="separator">
+            <img src="img/paiwi-cycle.png">
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <h3>Stage 1: Payment</h3>
+            <hr>
+            <table class="text-muted">
+              <tbody>
+                <tr>
+                  <th>Payment</th>
+                  <th>Cost</th>
+                </tr>
+                <tr>
+                  <td>Contract signing</td>
+                  <td>Php 160,000.00</td>
+                </tr>
+                <tr>
+                  <td>1 Month after</td>
+                  <td>Php 80,000.00</td>
+                </tr>
+                <tr>
+                  <td>2 Months after</td>
+                  <td>Php 80,000.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h3>Stage 2: Payout</h3>
+            <hr>
+            <table class="text-muted">
+              <tbody>
+                <tr>
+                  <th>Payout</th>
+                  <th>Revenue</th>
+                  <th>Month</th>
+                </tr>
+                <tr>
+                  <td>1st Payout</td>
+                  <td>Php 90,000.00</td>
+                  <td>11th</td>
+                </tr>
+                <tr>
+                  <td>2nd Payout</td>
+                  <td>Php 135,000.00</td>
+                  <td>19th</td>
+                </tr>
+                <tr>
+                  <td>3rd Payout</td>
+                  <td>Php 135,000.00</td>
+                  <td>27th</td>
+                </tr>
+                <tr>
+                  <td>4th Payout</td>
+                  <td>Php 135,000.00</td>
+                  <td>35th</td>
+                </tr>
+                <tr>
+                  <td>End of Contract (assets)</td>
+                  <td>Php 150,000.00</td>
+                  <td>35th / End</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h3>Stage 3: Profit</h3>
+            <hr>
+            <table class="text-muted">
+              <tbody>
+                <tr>
+                  <td>Total Cost:</td>
+                  <td>Php 320,000.00</td>
+                </tr>
+                <tr>
+                  <td>Total Revenue:</td>
+                  <td>Php 645,000.00</td>
+                </tr>
+                <tr>
+                  <td>Total Profit:</td>
+                  <td>Php 325,000.00</td>
+                </tr>
+                <tr>
+                  <td>Return of Investment:</td>
+                  <td>102 % over 3 years</td>
+                </tr>
+              </tbody>
+              </table>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
-          </div>
+          <div class="col-lg-12 text-center"></div>
         </div>
       </div>
     </section>
 
+    <!-- Gallery -->
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
@@ -266,6 +378,7 @@
       </div>
     </section>
 
+    <!-- Contact Form -->
     <section class="bg-dark text-white">
       <div class="container text-center">
         <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
