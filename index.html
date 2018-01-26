@@ -25,60 +25,8 @@
     <link href="css/creative.min.css" rel="stylesheet">
 
     <!-- Custom styles for the specific website (to be moved to own file) -->
-    <link href="https://fonts.googleapis.com/css?family=Dosis|Lato" rel="stylesheet"> 
-    <style type="text/css">
-    h1, h2, h3, h4, h5, h6 {
-      /*font-family: 'Dosis', 'Helvetica', sans-serif;*/
-      font-family: 'Lato', 'Helvetica', sans-serif;
-    }
-
-    body, #mainNav, #mainNav .navbar-brand {
-      font-family: 'Lato', 'Helvetica', sans-serif;
-    }
-
-    #navbar-logo {
-      height: 3em;
-    }
-
-    .white-text-img {
-      padding: 3em 0em;
-      background-color: rgba(0,0,0,0.5);
-      z-index:0;
-    }
-
-    hr.separator {
-      visibility: hidden;
-    }
-
-    #gallery {
-      display: none;
-    }
-
-    #about-img {
-      width: 100%;
-      margin-bottom: 3em;
-    }
-
-    /* Color scheme changing */
-    .btn-primary {
-      background-color: #9EBD30 !important;
-      border-color: #9EBD30 !important;
-    }
-
-    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-      background-color: #88a229 !important;
-      border-color: #88a229 !important;
-    }
-
-    .bg-primary {
-      background-color: #5D6F1C !important;
-    }
-
-    hr {
-      background-color: #88a229;
-      border-color: #88a229;
-    }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
   </head>
 
@@ -99,11 +47,14 @@
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#paiwi">Paiwi</a>
+              <a class="nav-link js-scroll-trigger" href="#owners">Owners</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+              <a class="nav-link js-scroll-trigger" href="#paiwi">Paiwi</a>
             </li>
+            <!--li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+            </li-->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
@@ -159,8 +110,8 @@
         </div>
         <br />
         <div class="row">
-          <div class="col-lg-4 mx-auto text-center">
-            <h2 class="section-heading text-white">Our Mission</h2>
+          <div class="col-lg-4 mx-auto text-left">
+            <h2 class="section-heading text-white text-center">Our Mission</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">
               <ul class="text-faded">
@@ -182,6 +133,22 @@
       </div>
     </section>
 
+    <!-- About the Owners -->
+    <section id="owners" class="owners-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 owners-text">
+            <h2 class="section-heading">About the Owners</h2>
+            <p class="mb4">
+              The farm was founded by Elmer and Nelly dela Cruz in early 2018. Both currently work as doctors, but have chosen to pursue building and managing the farm after being introduced to the DV Boer Farm and their goat farming business venture. Shortly after, they decided to branch off and, in collaboration with DV Boer, become a subfarm and use their land in Bulacan as a site for agriculture and livestock-farming.
+            </p>
+          </div>
+          <div class="col-lg-4">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Paiwi Section -->
     <section id="paiwi">
       <div class="container">
@@ -193,7 +160,7 @@
                 In the Pa-iwi or Paalaga System, the owner of livestock would put in trust a cow / goat to a farmer or trusted individual to take care of the livestock. Any offspring would be equally divided in half between the owner and the farmer.
             </p>
             <hr class="separator">
-            <img src="img/paiwi-cycle.png">
+            <img id="paiwi-img" src="img/paiwi-cycle.png">
           </div>
         </div>
         <br />

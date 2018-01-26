@@ -1,0 +1,73 @@
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Lato', 'Helvetica', sans-serif;
+    }
+
+    body, #mainNav, #mainNav .navbar-brand {
+      font-family: 'Lato', 'Helvetica', sans-serif;
+    }
+
+    #navbar-logo {
+      height: 3em;
+    }
+
+    .white-text-img {
+      padding: 3em 0em;
+      background-color: rgba(0,0,0,0.5);
+      z-index:0;
+    }
+
+    hr.separator {
+      visibility: hidden;
+    }
+
+    #gallery {
+      display: none;
+    }
+
+    #about-img {
+      width: 100%;
+      margin-bottom: 3em;
+    }
+
+    .owners-img {
+        background-image: url(../img/farm-owners.jpg);
+        background-size: cover;
+    }
+
+    .owners-text {
+        background-color: rgba(240,240,240,0.75);
+        padding: 2em;
+    }
+
+    #paiwi-img {
+        width: 100%;
+    }
+
+    /* Color scheme changing */
+    .btn-primary {
+      background-color: #9EBD30 !important;
+      border-color: #9EBD30 !important;
+    }
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+      background-color: #88a229 !important;
+      border-color: #88a229 !important;
+    }
+
+    .bg-primary {
+      background-color: #5D6F1C !important;
+    }
+
+    hr {
+      background-color: #88a229;
+      border-color: #88a229;
+    }
+
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+    #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+        color: #88a229 !important;
+    }
