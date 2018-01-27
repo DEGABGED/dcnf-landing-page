@@ -51,9 +51,13 @@ hr.separator {
   width: 100%;
 }
 
+#carouselExampleIndicators {
+  width: 100%;
+}
 .carousel-item {
   padding: 0 15%;
   height: 30em;
+  width: 100%;
 }
 
 /* Color scheme changing */
